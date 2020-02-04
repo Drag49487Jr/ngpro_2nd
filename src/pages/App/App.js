@@ -2,6 +2,7 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import LoginPage from '../LoginPage/LoginPage';
 import HomePage from '../HomePage/HomePage';
+import EventsPage from '../EventsPage/EventsPage';
 import './App.css';
 
 
@@ -17,6 +18,9 @@ function App() {
         <Route path='/home' render={() =>
           <HomePage 
           />
+        }/>
+        <Route path='/events' render={() =>
+          <EventsPage />
         }/>
       </Switch>
     </div>
