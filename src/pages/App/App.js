@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route exact path='/' render={() => 
+        <Route exact path='/' render={({history}) => 
           <LoginPage 
-          
+            history={history}
         />
         }/>
         <Route path='/home' render={() =>
