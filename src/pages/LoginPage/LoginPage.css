@@ -1,0 +1,48 @@
+.phone-outline {
+    background-color: white;
+    background-image: linear-gradient(127deg, white,blue);
+    border:solid black;
+    display:flex;
+    height:80vh;
+    width:40vh;
+    position: absolute;
+    right:45%;
+    border-radius: 25px;
+}
+#phone-camera {
+    height: 6vh;
+    width:20vh;
+    position: absolute;
+    right:26%;
+    border-radius:0px 0px 7px 7px;
+    background-color:black;
+}
+#logo {
+    background-color: red;
+    border-radius: 30%;
+    height:15vh;
+    width:15vh;
+    position:absolute;
+    right:32%;
+    top:15%;
+}
+#password-box {
+    background-color:white;
+    border-radius:10px;
+    border:solid;
+    height: 10vh;
+    width:30vh;
+    position: absolute;
+    right: 10.5%;
+    top:40%;
+}
+#submit {
+    background-color:yellow;
+    border-radius:10px;
+    height:10vh;
+    width:20vh;
+    position: absolute;
+    right:25%;
+    top:58%;
+    text-decoration: none;
+}

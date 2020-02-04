@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './LoginPage.css';
 
 class LoginPage extends Component {
     constructor() {
@@ -29,12 +30,13 @@ class LoginPage extends Component {
 
     render(){
         return(
-            <div>
-                <h1>LoginPage</h1>
+            <div class='phone-outline'>
+                <div id='phone-camera'></div>
+                <div id='logo'></div>
                 <form onSubmit={this.handleSubmit}>
-                    <input type='password' placeholder='password'
+                    <input id='password-box' type='password' placeholder='password'
                         name='user_password' onChange={this.handleChange} />
-                        <button>Login</button>
+                        <button id='submit'>Login</button>
                         <div>{this.state.message}</div>
                 </form>
             </div>
