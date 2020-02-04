@@ -36,6 +36,7 @@ class LoginPage extends Component {
                 <div id='second-stroke'></div>
             <div class='phone-outline'>
                 <div id='phone-camera'></div>
+                <img className='image' src='../images/ngpro-logo.jpeg' alt='ngpro'></img>
                 <div id='logo'></div>
                 <form onSubmit={this.handleSubmit}>
                     <input id='password-box' type='password'
