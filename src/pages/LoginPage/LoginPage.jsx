@@ -34,9 +34,9 @@ class LoginPage extends Component {
                 <div id='phone-camera'></div>
                 <div id='logo'></div>
                 <form onSubmit={this.handleSubmit}>
-                    <input id='password-box' type='password' placeholder='password'
+                    <input id='password-box' type='password'
                         name='user_password' onChange={this.handleChange} />
-                        <button id='submit'>Login</button>
+                        <button type='button' class="btn-primary" id='submit'>Login</button>
                         <div>{this.state.message}</div>
                 </form>
             </div>

@@ -1,6 +1,6 @@
 .phone-outline {
     background-color: white;
-    background-image: linear-gradient(127deg, white,blue);
+    background-image: linear-gradient(127deg, cyan,white);
     border:solid black;
     display:flex;
     height:80vh;
@@ -8,6 +8,7 @@
     position: absolute;
     right:45%;
     border-radius: 25px;
+    top:10%;
 }
 #phone-camera {
     height: 6vh;
@@ -37,12 +38,12 @@
     top:40%;
 }
 #submit {
-    background-color:yellow;
     border-radius:10px;
     height:10vh;
     width:20vh;
     position: absolute;
     right:25%;
     top:58%;
-    text-decoration: none;
+    border-style: none;
+    font-size:30px;
 }
