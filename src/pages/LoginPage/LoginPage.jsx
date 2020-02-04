@@ -30,6 +30,10 @@ class LoginPage extends Component {
 
     render(){
         return(
+            <div>
+                <div id='first-stroke'></div>
+                <div id='third-stroke'></div>
+                <div id='second-stroke'></div>
             <div class='phone-outline'>
                 <div id='phone-camera'></div>
                 <div id='logo'></div>
@@ -39,6 +43,7 @@ class LoginPage extends Component {
                         <button type='button' class="btn-primary" id='submit'>Login</button>
                         <div>{this.state.message}</div>
                 </form>
+            </div>
             </div>
         )
     }
