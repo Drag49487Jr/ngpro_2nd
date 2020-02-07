@@ -6,7 +6,7 @@
     height:80vh;
     width:40vh;
     position: absolute;
-    right:45%;
+    right:40%;
     border-radius: 25px;
     top:10%;
 }
@@ -24,7 +24,7 @@
     height:15vh;
     width:15vh;
     position:absolute;
-    right:32%;
+    right:35%;
     top:15%;
 }
 #password-box {
@@ -37,6 +37,10 @@
     right: 10.5%;
     top:40%;
 }
+.p-input {
+    font-size:60px;
+    /* -webkit-text-security: disc; */
+}
 #submit {
     border-radius:10px;
     height:10vh;
@@ -47,7 +51,7 @@
     border-style: none;
     font-size:30px;
 }
-#first-stroke {
+/* #first-stroke {
     transform: rotate(-15deg);
     border-radius:50%;
     width:80vh;
@@ -55,7 +59,7 @@
     background-color:rgba(0,181,204,.3);
     background-image:linear-gradient(blue, white);
     position: absolute;
-    right:-10%;
+    right:10%;
     top:-20%;
 }
 #third-stroke {
@@ -67,7 +71,7 @@
     background-image:linear-gradient(blue, white);
     position: absolute;
     left:-20%;
-    top:-10%;
+    top:10%;
 }
 #second-stroke {
     border-radius:50%;
@@ -77,13 +81,13 @@
     background-image:linear-gradient(white, blue);
     position: absolute;
     top:-80%;
-    left:10%;
-}
-.image {
+} */
+.ngpro-logo {
     width:20vh;
     height: 20vh;
-    position: absolute;
-    left:23%;
+    position: relative;
+    left:25%;
+    /* right:50%; */
     top:12%;
     border-radius: 20%;
 }

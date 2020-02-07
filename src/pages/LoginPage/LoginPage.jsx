@@ -31,15 +31,15 @@ class LoginPage extends Component {
     render(){
         return(
             <div>
-                <div id='first-stroke'></div>
+                {/* <div id='first-stroke'></div>
                 <div id='third-stroke'></div>
-                <div id='second-stroke'></div>
+                <div id='second-stroke'></div> */}
             <div class='phone-outline'>
                 <div id='phone-camera'></div>
-                <img className='image' src='../images/ngpro-logo.jpeg' alt='ngpro'></img>
+                <img className='ngpro-logo' src='../images/ngpro-logo.jpeg' alt='ngpro'></img>
                 <div id='logo'></div>
                 <form onSubmit={this.handleSubmit}>
-                    <input id='password-box' type='password'
+                    <input className='p-input' id='password-box' type='password'
                         name='user_password' onChange={this.handleChange} />
                         <button className="btn-primary" id='submit'>Login</button>
                 </form>
