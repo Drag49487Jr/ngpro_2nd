@@ -41,8 +41,7 @@ class LoginPage extends Component {
                 <form onSubmit={this.handleSubmit}>
                     <input id='password-box' type='password'
                         name='user_password' onChange={this.handleChange} />
-                        <button type='button' className="btn-primary" id='submit'>Login</button>
-                        <div>{this.state.message}</div>
+                        <button className="btn-primary" id='submit'>Login</button>
                 </form>
             </div>
             </div>
