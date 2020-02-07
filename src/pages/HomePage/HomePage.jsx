@@ -20,7 +20,7 @@ class HomePage extends Component {
                     </div>
                     <div className='about-info'>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat similique ullam dicta, asperiores nulla aspernatur magni? Omnis aliquam voluptates aut ullam rem quos quisquam. Facilis soluta maiores sequi suscipit unde?</p>
-                        <button>Learn More!</button>
+                        <button type='button' className='btn btn-primary'>Learn More!</button>
                     </div>
                 </div>
                 <div className='event-section'>

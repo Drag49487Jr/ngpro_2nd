@@ -7,7 +7,7 @@ class Navbar extends Component {
         return(
             <div className='navbar'>
                 <div className='logo'>
-                    <img className='image' src='../images/ngpro-logo.jpeg' alt='ngpro'></img>
+                    <Link to='/home'> <img className='image' src='../images/ngpro-logo.jpeg' alt='ngpro'></img></Link>
                 </div>
                 <div className='links'>
                     <Link to='/events'>Events</Link>
