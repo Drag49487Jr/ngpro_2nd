@@ -5,7 +5,7 @@ import './Navbar.css'
 class Navbar extends Component {
     render() {
         return(
-            <div className='navbar'>
+            <nav className='navbar'>
                 <div className='logo'>
                     <Link to='/home'> <img className='image' src='../images/ngpro-logo.jpeg' alt='ngpro'></img></Link>
                 </div>
@@ -13,7 +13,7 @@ class Navbar extends Component {
                     <Link to='/events'>Events</Link>
                     <Link to='/downloadablefiles'>Downloadable Files</Link>
                 </div>
-            </div>
+            </nav>
         )
     }
 };

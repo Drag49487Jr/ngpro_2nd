@@ -6,7 +6,7 @@ class HomePage extends Component {
     render() {
         return(
             <div>
-                <div>
+                <div className='top-section'>
                     <Navbar />
                     <div className='group-pic'>
 

@@ -1,15 +1,20 @@
 .links {
     display:flex;
-    font-size: 20px;
+    font-size: 25px;
     text-indent: 2em;
     position: relative;
     right:10%;
     
 }
 .navbar {
-    height:20vh;
+    height:10vh;
     width:100%;
     background-color:white;
-    box-shadow: 0px 5px 10px black;
+    /* box-shadow: 0px 5px 10px black; */
     /* background-image:linear-gradient(rgba(0,150,255), white); */
+}
+.image{
+    box-shadow: 0px 10px 14px rgba(0,150,255,.4);
+    position: absolute;
+    left:10%;
 }

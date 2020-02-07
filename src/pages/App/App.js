@@ -3,6 +3,7 @@ import {Route, Switch} from 'react-router-dom';
 import LoginPage from '../LoginPage/LoginPage';
 import HomePage from '../HomePage/HomePage';
 import EventsPage from '../EventsPage/EventsPage';
+import DownloadableFiles from '../DownloadableFiles/DownloadableFiles';
 import './App.css';
 
 
@@ -22,6 +23,9 @@ function App() {
         <Route path='/events' render={() =>
           <EventsPage />
         }/>
+        <Route path='/downloadablefiles' render={() =>
+          <DownloadableFiles />
+        }/> 
       </Switch>
     </div>
   );

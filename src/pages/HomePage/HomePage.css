@@ -1,3 +1,9 @@
+.top-section {
+    background-color:white;
+    height:90vh;
+    box-shadow: 5px 5px 10px black;
+}
+
 .headline {
     position: absolute;
     /* color:rgba(0,150,255); */
