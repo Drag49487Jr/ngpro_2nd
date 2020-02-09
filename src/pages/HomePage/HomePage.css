@@ -53,14 +53,14 @@
     font-size: 10vh;
 }
 .group-pic {
-    background-color: aqua;
+    /* background-color: aqua; */
     border-radius: 2%;
-    height:50vh;
-    width:50vh;
+    height:70vh;
+    width:70vh;
     position:absolute;
-    right:20%;
-    top:30%;
-    box-shadow: 5px 5px 5px black;
+    right:7%;
+    top:20%;
+    /* box-shadow: 5px 5px 5px black; */
 }
 .about-section {
     height:80vh;

@@ -14,7 +14,10 @@ class HomePage extends Component {
                         {/* <div className='trapezoid'></div> */}
                         <Navbar />
                         <div>
-                            <img className='group-pic' src='../images/handshaking_img.jpg' alt='group-img'></img>
+                            {/* <img className='group-pic' src='../images/handshaking_img.jpg' alt='group-img'></img> */}
+                            <video className='group-pic' autoPlay loop>
+                                <source src='../images/ngprovid_one.mp4' type='video/mp4' />
+                            </video>
                         </div>
                         <h1 className='headline' >Welcome To</h1>
                         <h1 className='second-part-headline'>NG PRO</h1>
