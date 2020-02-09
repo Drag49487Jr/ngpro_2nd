@@ -12,6 +12,7 @@ class Navbar extends Component {
                 <div className='links'>
                     <Link className='link' to='/events'>Events</Link>
                     <Link className='link' to='/downloadablefiles'>Downloadable Files</Link>
+                    <Link className='link' to='/'>LogOut</Link>
                 </div>
             </nav>
         )
