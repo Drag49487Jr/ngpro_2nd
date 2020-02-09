@@ -3,20 +3,35 @@
     font-size: 25px;
     text-indent: 2em;
     position: relative;
-    right:10%;
-    
+    right:10%;   
 }
+.link {
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+/* .link:hover {
+    color:black;
+    background: rgba(0,150,255,.4);
+    box-shadow: 0 0 10px rgba(0,150,255,.4), 0 0 40px rgba(0,150,255,.4), 0 0 80px rgba(0,150,255,.4);
+    transition-delay: 1s;
+} */
 .navbar {
     height:10vh;
     width:100%;
-    background-color:white;
+    position: absolute;
+    top: 0%;
+    /* background-color:rgba(0,150,255,.4); */
     /* box-shadow: 0px 5px 10px black; */
     /* background-image:linear-gradient(rgba(0,150,255), white); */
 }
 .image{
-    box-shadow: 0px 10px 14px rgba(0,150,255,.4);
-    position: absolute;
-    left:10%;
+    box-shadow: 1px 5px 5px gray;
+    border-radius:10%;
+    /* position: absolute; */
+    /* left:10%; */
     height: 20vh;
     width:20vh;
 }
