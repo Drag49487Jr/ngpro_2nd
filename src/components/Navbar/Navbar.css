@@ -30,8 +30,6 @@
 .image{
     box-shadow: 1px 5px 5px gray;
     border-radius:10%;
-    /* position: absolute; */
-    /* left:10%; */
     height: 20vh;
     width:20vh;
 }

@@ -8,9 +8,9 @@ class HomePage extends Component {
             <div>
                 <div>
                     <div className='top-section'>
-                        <div className='circleone'></div>
-                        <div className='circletwo'></div>
-                        <div className='circlethree'></div>
+                        <div className='diamondone'></div>
+                        <div className='diamondtwo'></div>
+                        <div className='diamondthree'></div>
                         {/* <div className='trapezoid'></div> */}
                         <Navbar />
                         <div>
@@ -21,7 +21,9 @@ class HomePage extends Component {
                     </div>
                     <div className='about-section'>
                         <div>
-                            <img className='second-pic-box' src='../images/groupphoto.jpg' alt='ng-pic'></img>
+                            <img className='second-pic-box' src='../images/eventpeople.jpg' alt='event-pic'></img>
+                            <img className='second-pic-box_two' src='../images/groupphoto_two.jpg' alt='event-pic'></img>
+                            <img className='second-pic-box_three' src='../images/groupphoto_three.jpg' alt='event-pic'></img>
                         </div>
                         <div className='about-info'>
                             <h1>Who are we?</h1>
@@ -31,11 +33,10 @@ class HomePage extends Component {
                     </div>
                     <div className='event-section'>
                         <div>
-                            <img className='third-pic-box' src='../images/eventpeople.jpg' alt='event-pic'></img>
-                            <img className='third-pic-box_two' src='../images/groupphoto_two.jpg' alt='event-pic'></img>
-                            <img className='third-pic-box_three' src='../images/groupphoto_three.jpg' alt='event-pic'></img>
+                        <img className='third-pic-box' src='../images/groupphoto.jpg' alt='ng-pic'></img>
                         </div>
                         <div className='event-info'>
+                            <h1>Events</h1>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, ex ab dignissimos ipsum dolorum porro sunt! Ipsum ea, rem unde libero quaerat a tenetur provident quae magni? Illo, totam perspiciatis.</p>
                         </div>
                     </div>

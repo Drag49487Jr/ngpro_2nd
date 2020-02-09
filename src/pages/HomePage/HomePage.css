@@ -4,7 +4,7 @@
     height:90vh;
     box-shadow: 5px 5px 10px black;
 }
-.circleone {
+.diamondone {
     height:12vh;
     width: 20.7vh;
     background-color:white;
@@ -13,7 +13,7 @@
     left:35%;
     top: 18%;
 }
-.circletwo {
+.diamondtwo {
     height:8vh;
     width: 13.4vh;
     background-color:white;
@@ -22,7 +22,7 @@
     left: 22%;
     top:41%;
 }
-.circlethree {
+.diamondthree {
     height:5vh;
     width: 8.8vh;
     background-color:white;
@@ -54,7 +54,7 @@
 }
 .group-pic {
     background-color: aqua;
-    border-radius: 20%;
+    border-radius: 2%;
     height:50vh;
     width:50vh;
     position:absolute;
@@ -73,15 +73,6 @@
     top:110%;
     box-shadow: 5px 5px 10px black;
     
-}
-.second-pic-box {
-    height:60vh;
-    width:60vh;
-    border-radius: 1%;
-    background-color:black;
-    position: absolute;
-    left: 30%;
-    top:40%;
 }
 .about-info {
     height:20vh;
@@ -106,33 +97,46 @@
 }
 .event-info {
     position: absolute;
-    top: 30%;
+    top: 20%;
     height: 30vh;
     width: 40vh;
     /* background-color:white; */
+    color:white;
+    font-size:25px;
     border-radius: 10%;
 }
+.second-pic-box {
+    height:40vh;
+    width:40vh;
+    border-radius: 1%;
+    background-color:black;
+    position: absolute;
+    left: 5%;
+    top:40%;
+}
+.second-pic-box_two {
+    height: 40vh;
+    width:40vh;
+    position: absolute;
+    top:40%;
+    right: 5%;
+    border-radius: 1%;
+}
+.second-pic-box_three {
+    height: 40vh;
+    width:40vh;
+    position: absolute;
+    top:48%;
+    left:35%;
+    border-radius: 1%;
+}
 .third-pic-box {
-    height: 40vh;
-    width:40vh;
+    height: 60vh;
+    width:60vh;
     position: absolute;
-    top: 20%;
+    top: 13%;
     border-radius: 1%;
-    right:40%;
-}
-.third-pic-box_two {
-    height: 40vh;
-    width:40vh;
-    position: absolute;
-    right: 10%;
-    border-radius: 1%;
-}
-.third-pic-box_three {
-    height: 40vh;
-    width:40vh;
-    position: absolute;
-    top:50%;
-    border-radius: 1%;
+    right:20%;
 }
 .footer{
     height:20vh;
