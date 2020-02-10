@@ -91,38 +91,78 @@
     top:12%;
     border-radius: 20%;
 }
-@media (min-width: 320px), (min-height: 568px) {
+// @media (min-width: 320px), (min-height: 568px) {
+//     .phone-outline {
+//         left: 20%;
+//         width:40vh;
+
+//     }
+// }
+@media (min-width: 360px), (min-height: 640px) {
     .phone-outline {
-        right:15%;
+        right: 30vh;
+        width: 35vh;
     }
-} 
-@media (min-width:360px), (min-height: 640px) {
-    .phone-outline {
-        right: 14%;
+    #password-box{
+        width:26vh;
     }
-}
-@media (min-width: 375px), (min-height: 667px) {
-    .phone-outline {
-        right:14%;
+    #submit {
+        left:22%;
+    }
+    #phone-camera {
+        left:22%;
+    }
+    .ngpro-logo {
+        left:22%;
     }
 }
 @media (min-width: 375px), (min-height: 812px) {
     .phone-outline {
-        right: 7%;
+        width:33vh;
+    }
+    #password-box {
+        width:25vh;
+    }
+    #submit {
+        left:20%;
+    }
+    .ngpro-logo {
+        left:20%;
+    }
+    #phone-camera {
+        left:20%;
     }
 }
-@media (min-width: 414px), (min-height: 736px) {
+@media (min-width: 576px) {
+    .phone-outline {
+        left:20%;
+    }
+}
+@media (min-height: 414px), (min-height: 736px) {
+    .phone-outline {
+        left:20%;
+    }
+}
+@media (min-width: 768px), (min-height: 937px) {
+    .phone-outline {
+        left:20%;
+    }
+}
+@media (min-width: 738px), (min-height: 665px) {
+    .phone-outline {
+        right:40%;
+    }
+}
+@media (min-height: 1080px), (min-height: 1920px) {
     .phone-outline {
         left:15%;
     }
-}
-@media (min-height: 1024px) {
-    .phone-outline {
-        left:24%;
+    #submit {
+        font-size:70px;
     }
 }
-@media (min-height: 820px) {
+@media (min-width: 1679px), (min-height: 937px) {
     .phone-outline {
-        right:9%;
+        left: 40%;
     }
 }

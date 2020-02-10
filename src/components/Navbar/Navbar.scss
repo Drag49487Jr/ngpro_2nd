@@ -33,3 +33,12 @@
     height: 20vh;
     width:20vh;
 }
+@media (min-width:360), (min-height: 640px) {
+    .links {
+        font-size:20px;
+    }
+    .image {
+        width:10vh;
+        height:10vh;
+    }
+}

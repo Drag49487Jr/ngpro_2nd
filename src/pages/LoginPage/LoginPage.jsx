@@ -34,7 +34,7 @@ class LoginPage extends Component {
                 {/* <div id='first-stroke'></div>
                 <div id='third-stroke'></div>
                 <div id='second-stroke'></div> */}
-            <div class='phone-outline'>
+            <div className='phone-outline'>
                 <div id='phone-camera'></div>
                 <img className='ngpro-logo' src='../images/ngpro-logo.jpeg' alt='ngpro'></img>
                 <div id='logo'></div>
