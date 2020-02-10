@@ -420,3 +420,35 @@
         left:18%;
     }
 }
+@media (min-width: 1679px), (max-width: 937px) {
+    .group-pic {
+        left:28%;
+        top:35%;
+        width:90vh;
+        height:90vh;
+    }
+    .about-info {
+        left:35%;
+        font-size:40px;
+    }
+    .second-pic-box {
+        width: 50vh;
+        height: 50vh;
+        top:20%;
+    }
+    .second-pic-box_two {
+        width: 50vh;
+        height:50vh;
+        top: 20%;
+    }
+    .second-pic-box_three {
+        width: 70vh;
+        height:40vh;
+        left:33%;
+        top:63%;
+    }
+    .third-pic-box {
+        width:100vh;
+        left: 26%;
+    }
+}
