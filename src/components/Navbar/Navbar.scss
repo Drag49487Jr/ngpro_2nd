@@ -96,3 +96,8 @@
         font-size: 40px;
     }
 }
+@media (min-width: 1024px), (min-height: 1366px) {
+    .links {
+        left:-5%;
+    }
+}

@@ -401,3 +401,22 @@
         left:26%;
     }
 }
+@media (min-width: 1024px), (min-height: 1366px) {
+    .about-info {
+        font-size: 50px;
+    }
+    .about-section h1 {
+        font-size: 80px;
+    }
+    .event-info {
+        font-size: 50px;
+    }
+    .event-info h1 {
+        font-size: 80px;
+    }
+    .third-pic-box {
+        width:50vh;
+        height:50vh;
+        left:18%;
+    }
+}
