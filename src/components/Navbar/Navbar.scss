@@ -74,3 +74,10 @@
         height: 10vh;
     }
 }
+@media (min-width: 375px), (min-height: 736px) {
+    .links {
+        top:0%;
+        left: 0%;
+    }
+    
+}
