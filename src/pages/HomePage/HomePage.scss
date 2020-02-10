@@ -320,3 +320,40 @@
         left:10%;
     }
 }
+@media (min-width: 375px), (min-height:812px) {
+    .group-pic {
+        width:40vh;
+        height:40vh;
+        top:65%;
+        left:7%;
+    }
+    .diamondone {
+        top:25%;
+        left:76%;
+    }
+    .about-section{
+        margin: 0%;
+    }
+    .about-info {
+        left:5%;
+        font-size:25px;
+    }
+    .second-pic-box {
+        width:20vh;
+        height:20vh;
+    }
+    .second-pic-box_two {
+        width:20vh;
+        height:20vh;
+    }
+    .second-pic-box_three {
+        width:20vh;
+        height:20vh;
+    }
+    .event-info {
+        font-size: 28px;
+    }
+    .third-pic-box {
+        left:7%;
+    }
+}
