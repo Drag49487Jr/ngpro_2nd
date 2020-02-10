@@ -138,22 +138,22 @@
         left:20%;
     }
 }
-@media (min-height: 414px), (min-height: 736px) {
+@media (min-height: 414px), (max-height: 736px) {
     .phone-outline {
         left:20%;
     }
 }
-@media (min-width: 768px), (min-height: 937px) {
+@media (min-width: 768px), (max-height: 937px) {
     .phone-outline {
         left:20%;
     }
 }
-@media (min-width: 738px), (min-height: 665px) {
+@media (min-width: 738px), (max-height: 665px) {
     .phone-outline {
         right:40%;
     }
 }
-@media (min-height: 1080px), (min-height: 1920px) {
+@media (min-height: 1080px), (max-height: 1920px) {
     .phone-outline {
         left:15%;
     }
@@ -161,7 +161,7 @@
         font-size:70px;
     }
 }
-@media (min-width: 1679px), (min-height: 937px) {
+@media (min-width: 1679px), (max-height: 937px) {
     .phone-outline {
         left: 40%;
     }

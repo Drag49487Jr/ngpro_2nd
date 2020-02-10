@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import './EventsPage.css';
+import './EventsPage.scss';
 
 class EventsPage extends Component {
     render() {

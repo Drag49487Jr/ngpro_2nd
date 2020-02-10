@@ -1,9 +1,0 @@
-.card {
-    width: 18rem;
-    background-image: linear-gradient( rgba(0,150,255),white);
-}
-.row{
-    position: absolute;
-    top:30%;
-    margin:5vh;
-}

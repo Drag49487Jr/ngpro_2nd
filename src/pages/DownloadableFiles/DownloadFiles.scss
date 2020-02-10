@@ -1,0 +1,28 @@
+.download_one {
+    width:20vh;
+    height:20vh;
+    font-size:30px;
+    background-image:linear-gradient(200deg, rgb(0,150,255),white);
+}
+.download_two {
+    width:20vh;
+    height:20vh;
+    font-size: 30px;
+    background-image:linear-gradient(200deg, rgb(0,150,255),white);
+}
+.files {
+    display: flex;
+    position:absolute;
+    top:20%;
+    left:30%;
+}
+// @media (min-width: 360px), (max-height: 640px) {
+//     .downloadheader {
+//         font-size: 30px;
+//     }
+// }
+// @media (min-width: 411px), (max-height: 731px) {
+//     .downloadheader {
+//         margin: 2vh;
+//     }
+// }
