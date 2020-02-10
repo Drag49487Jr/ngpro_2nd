@@ -87,3 +87,12 @@
         text-indent: 1em;
     }
 }
+@media (min-width: 768px), (min-height: 1024px) {
+    .image {
+        width:20vh;
+        height: 20vh;
+    }
+    .links {
+        font-size: 40px;
+    }
+}

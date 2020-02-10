@@ -357,3 +357,47 @@
         left:7%;
     }
 }
+@media (min-width: 768px), (min-height: 1024px) {
+    .diamondone {
+        width: 20vh;
+        height:12.1vh;
+        left:65%;
+        top:38%;
+    }
+    .diamondtwo {
+        left: 17%;
+    }
+    .diamondthree {
+        top: 48%;
+        left:50%;
+    }
+    .group-pic {
+        width:50vh;
+        height: 50vh;
+        left:17%;
+    }
+    .about-info {
+        font-size: 40px;
+        width:60vh;
+        left:10%;
+    }
+    .second-pic-box {
+        width:30vh;
+        height:30vh;
+    }
+    .second-pic-box_two {
+        width:30vh;
+        height:30vh;
+    }
+    .second-pic-box_three {
+        width:30vh;
+        height: 30vh;
+        left:30%;
+    }
+    .event-info {
+        font-size:45px;
+    }
+    .third-pic-box {
+        left:26%;
+    }
+}
