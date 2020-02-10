@@ -233,3 +233,67 @@
         left:0%;
     }
 }
+@media (min-width:320px), (min-height: 568px) {
+    .group-pic {
+        height: 50vh;
+        width:50vh;
+        left:0%;
+        top:60%;
+    }
+    .diamondone {
+        width:12vh;
+        height:7vh;
+        left:70%;
+        top:33%;
+    }
+    .diamondtwo {
+        width:10vh;
+        height: 6vh;
+        left:3%;
+    }
+    .diamondthree {
+        top:50%;
+        left:60%;
+    }
+    .about-section {
+        width: 100%;
+        margin:0%;
+    }
+    .about-info {
+        font-size:18px;
+        width:40vh;
+        left:6%;
+        top:0%;
+    }
+    .second-pic-box {
+        width:25vh;
+        height:25vh;
+        left: 0%;
+        top:50%;
+    }
+    .second-pic-box_two {
+        width:25vh;
+        height: 25vh;
+        top: 50%;
+    }
+    .second-pic-box_three {
+        width: 25vh;
+        height:25vh;
+        top:65%;
+        left:20%;
+    }
+    .event-section {
+        width:100%;
+    }
+    .event-info {
+        font-size:18px;
+        top:0%;
+        width:80%;
+        left:3%;
+    }
+    .third-pic-box {
+        width:40vh;
+        height: 40vh;
+        top:60%;
+    }
+}
