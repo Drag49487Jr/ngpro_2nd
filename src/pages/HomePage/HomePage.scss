@@ -297,3 +297,26 @@
         top:60%;
     }
 }
+@media (min-width: 375px), (min-height: 667px) {
+    .group-pic {
+        left:5%;
+    }
+    .about-info {
+        left:15%;
+        font-size: 22px;
+    }
+    .second-pic-box {
+        left:2%;
+    }
+    .second-pic-box_two {
+        right:2%;
+    }
+    .second-pic-box_three {
+        left: 26%;
+        top:75%;
+    }
+    .event-info {
+        font-size: 25px;
+        left:10%;
+    }
+}
