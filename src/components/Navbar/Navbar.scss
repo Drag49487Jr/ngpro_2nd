@@ -63,3 +63,14 @@
         height:13vh;
     }
 }
+@media (min-width: 375px), (min-height: 667px) {
+    .links {
+        font-size: 19px;
+        left:12%;
+        top:-100%;
+    }
+    .image {
+        width:10vh;
+        height: 10vh;
+    }
+}
