@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Player, ControlBar,CurrentTimeDisplay, DurationDisplay ,PlayToggle, LoadProgressBar,ProgressControl,FullscreenToggle} from 'video-react';
 import Navbar from '../../components/Navbar/Navbar'
 import './HomePage.scss';
 
@@ -15,9 +16,18 @@ class HomePage extends Component {
                         <Navbar />
                         <div>
                             {/* <img className='group-pic' src='../images/handshaking_img.jpg' alt='group-img'></img> */}
-                            <video className='group-pic' autoPlay loop>
-                                <source src='../images/ngprovid_one.mp4' type='video/mp4' />
-                            </video>
+                            <Player                                 
+                                className='group-pic'
+                                src='../images/ngprovid_one.mp4'>
+                                    <ControlBar>
+                                        <CurrentTimeDisplay disabled />
+                                        <PlayToggle disabled />
+                                        <DurationDisplay disabled />
+                                        <LoadProgressBar disabled />
+                                        <ProgressControl disabled />
+                                        <FullscreenToggle disabled />
+                                    </ControlBar>
+                            </Player>
                         </div>
                         <h1 className='headline' >Welcome To</h1>
                         <h1 className='second-part-headline'>NG PRO</h1>
