@@ -16,7 +16,7 @@ class HomePage extends Component {
                         <Navbar />
                         <div>
                             {/* <img className='group-pic' src='../images/handshaking_img.jpg' alt='group-img'></img> */}
-                            <Player                                 
+                            {/* <Player                                 
                                 className='group-pic'
                                 src='../images/ngprovid_one.mp4'>
                                     <ControlBar>
@@ -27,7 +27,7 @@ class HomePage extends Component {
                                         <ProgressControl disabled />
                                         <FullscreenToggle disabled />
                                     </ControlBar>
-                            </Player>
+                            </Player> */}
                         </div>
                         <h1 className='headline' >Welcome To</h1>
                         <h1 className='second-part-headline'>NG PRO</h1>

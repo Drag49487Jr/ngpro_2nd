@@ -30,7 +30,7 @@ class LoginPage extends Component {
 
     render(){
         return(
-            <div>
+            <div className='container'>
                 {/* <div id='first-stroke'></div>
                 <div id='third-stroke'></div>
                 <div id='second-stroke'></div> */}
