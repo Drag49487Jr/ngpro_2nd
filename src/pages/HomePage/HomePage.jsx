@@ -19,7 +19,7 @@ class HomePage extends Component {
                             <Player     
                             // className='card'         
                                 className='group-pic'   
-                                fluid={false}      
+                                fluid={true}      
                                 width={50}    
                                 height={50}
                                 src='../images/ngprovid_one.mp4'>

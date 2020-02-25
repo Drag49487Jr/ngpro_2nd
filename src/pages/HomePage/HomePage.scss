@@ -161,10 +161,14 @@
         left:50%;
     }
     .group-pic {
-        width:50vh;
-        height: 50vh;
+        width:40vh;
+        height: 40vh;
         left:17%;
     }
+    // video {
+    //     width:50vh;
+    //     height:50vh;
+    // }
     .about-info {
         font-size: 40px;
         width:60vh;
@@ -198,6 +202,10 @@
     .about-section h1 {
         font-size: 80px;
     }
+    .group-pic {
+        width:40vh;
+        height:40vh;
+    }
     .event-info {
         font-size: 50px;
     }
@@ -220,12 +228,14 @@
         width: 100%;
     }
     .group-pic{
-        left:2%;
-        top: 60%;
+        left:15%;
+        top: 40%;
+        width:40vh;
+        height:40vh;
     }
     video {
-        width: 40vh;
-        height:40vh;
+        width: 30vh;
+        height:30vh;
     }
     .diamondone {
         width:15vh;
@@ -302,8 +312,11 @@
     .diamondone {
         left:75%;
     }
-    .group-pic {
-        left:0%;
+    .group-pic{
+        // left:15%;
+        top: 40%;
+        width:40vh;
+        height:40vh;
     }
 }
 
@@ -312,7 +325,7 @@
     .group-pic {
         width:40vh;
         height:40vh;
-        top:65%;
+        top:40%;
         left:7%;
     }
     .diamondone {
