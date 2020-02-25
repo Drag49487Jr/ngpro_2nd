@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {Player, ControlBar,CurrentTimeDisplay, DurationDisplay ,PlayToggle, LoadProgressBar,ProgressControl,FullscreenToggle} from 'video-react';
-import Navbar from '../../components/Navbar/Navbar'
+import {BigPlayButton,Player,ControlBar,CurrentTimeDisplay, DurationDisplay ,PlayToggle, LoadProgressBar,ProgressControl,FullscreenToggle} from 'video-react';
+import Navbar from '../../components/Navbar/Navbar';
 import './HomePage.scss';
 
 class HomePage extends Component {
@@ -16,18 +16,23 @@ class HomePage extends Component {
                         <Navbar />
                         <div>
                             {/* <img className='group-pic' src='../images/handshaking_img.jpg' alt='group-img'></img> */}
-                            {/* <Player                                 
-                                className='group-pic'
+                            <Player     
+                            // className='card'         
+                                className='group-pic'   
+                                fluid={true}      
+                                width={50}    
+                                height={50}
                                 src='../images/ngprovid_one.mp4'>
-                                    <ControlBar>
+                                    <ControlBar disabled>
+                                        <BigPlayButton disabled/>
                                         <CurrentTimeDisplay disabled />
-                                        <PlayToggle disabled />
+                                        <PlayToggle disabled/>
                                         <DurationDisplay disabled />
                                         <LoadProgressBar disabled />
                                         <ProgressControl disabled />
                                         <FullscreenToggle disabled />
                                     </ControlBar>
-                            </Player> */}
+                            </Player>
                         </div>
                         <h1 className='headline' >Welcome To</h1>
                         <h1 className='second-part-headline'>NG PRO</h1>
