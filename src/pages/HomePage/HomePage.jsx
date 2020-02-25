@@ -21,7 +21,7 @@ class HomePage extends Component {
                                 fluid={true}      
                                 width={50}    
                                 height={50}
-                                src='../videos/ngprovid_one.mp4'>
+                                src='../images/ngprovid_one.mp4'>
                                     <ControlBar disabled>
                                         <BigPlayButton disabled/>
                                         <CurrentTimeDisplay disabled />
