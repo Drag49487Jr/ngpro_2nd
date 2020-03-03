@@ -38,19 +38,19 @@ class HomePage extends Component {
                     </div>
                     <div className='about-section'>
                         <div>
-                            <img className='second-pic-box' src='../images/eventpeople.jpg' alt='event-pic'></img>
-                            <img className='second-pic-box_two' src='../images/groupphoto_two.jpg' alt='event-pic'></img>
-                            <img className='second-pic-box_three' src='../images/groupphoto_three.jpg' alt='event-pic'></img>
+                            <img className='second-pic-box' src='../images/front/Thomas_Side.jpg' alt='event-pic'></img>
+                            {/* <img className='second-pic-box_two' src='#' alt='event-pic'></img> */}
+                            <img className='second-pic-box_three' src='../images/front/Weekly_Meeting_Two.jpg' alt='event-pic'></img>
                         </div>
                         <div className='about-info'>
-                            <h1>Who are we?</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat similique ullam dicta, asperiores nulla aspernatur magni? Omnis aliquam voluptates aut ullam rem quos quisquam. Facilis soluta maiores sequi suscipit unde?</p>
+                            <h1>Quiénes Somos Nosotros</h1>
+                            <p>We are a new generation of proffesionals. </p>
                             {/* <button type='button' className='btn btn-primary'>Learn More!</button> */}
                         </div>
                     </div>
                     <div className='event-section'>
                         <div>
-                        <img className='third-pic-box' src='../images/groupphoto.jpg' alt='ng-pic'></img>
+                        <img className='third-pic-box' src='../images/front/Weekly_Meeting_FW.jpg' alt='ng-pic'></img>
                         </div>
                         <div className='event-info'>
                             <h1>Events</h1>

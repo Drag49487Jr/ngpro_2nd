@@ -16,3 +16,11 @@
         display: block;
     }
 }
+@media (min-width: 375px) and (min-height: 812px) {
+    .card-text {
+        font-size: 25px;
+    }
+    .card-title {
+        font-size:40px;
+    }
+}
