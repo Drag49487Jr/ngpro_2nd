@@ -17,6 +17,7 @@ class Navbar extends Component {
                 <NavDropdown drop='left' className='links' title={<i class="fas fa-sort-amount-down"></i>}>
                     <Link className='link' to='/events'>Events</Link>
                     <Link className='link' to='/downloadablefiles'>Files</Link>
+                    <Link className='link' to='/leaders'>Leaders</Link>
                     <Link className='link' to='/'>LogOut</Link>
                 </NavDropdown>
             </nav>

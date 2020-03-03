@@ -5,6 +5,7 @@ import SecondLoginPage from '../SecondLoginPage/SecondLoginPage';
 import HomePage from '../HomePage/HomePage';
 import EventsPage from '../EventsPage/EventsPage';
 import DownloadableFiles from '../DownloadableFiles/DownloadableFiles';
+import LeadersPage from '../LeadersPage/LeadersPage';
 import './App.css';
 
 
@@ -29,6 +30,9 @@ function App() {
         <Route path='/downloadablefiles' render={() =>
           <DownloadableFiles />
         }/> 
+        <Route path='/leaders' render={() => 
+          <LeadersPage />
+        }/>
       </Switch>
     </div>
   );
