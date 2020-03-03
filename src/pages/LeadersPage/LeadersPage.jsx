@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Navbar from "../../components/Navbar/Navbar"
+import './LeadersPage.scss'
 
 class LeadersPage extends Component {
     render() {
