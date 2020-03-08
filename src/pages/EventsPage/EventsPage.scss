@@ -1,26 +1,23 @@
-.card {
-    width: 18rem;
-    background-image: linear-gradient( rgb(0,150,255),white);
+// .card {
+//     width: 18rem;
+//     background-image: linear-gradient( rgb(0,150,255),white);
+// }
+// .row{
+//     position: absolute;
+//     top:30%;
+//     margin:5vh;
+// }
+.carousel {
+    // height:100px;
+    margin-top: 50px;
 }
-.row{
-    position: absolute;
-    top:30%;
-    margin:5vh;
+.carousel-caption {
+    margin-bottom: 90px;
 }
-@media (min-width: 768px), (max-height: 1024) {
-    .card {
-        width: 15rem;
-        width:63vh;
-    }
-    .row {
-        display: block;
-    }
+.carousel-item {
+    height:400px;
 }
-@media (min-width: 375px) and (min-height: 812px) {
-    .card-text {
-        font-size: 25px;
-    }
-    .card-title {
-        font-size:40px;
-    }
+.d-block {
+    // border-radius: 50%;
+    height:100%;
 }

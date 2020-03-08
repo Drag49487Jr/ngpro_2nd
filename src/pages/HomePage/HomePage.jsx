@@ -6,60 +6,45 @@ import './HomePage.scss';
 class HomePage extends Component {
     render() {
         return(
-            <div>
-                <div>
-                    <div className='top-section'>
-                        <div className='diamondone'></div>
-                        <div className='diamondtwo'></div>
-                        <div className='diamondthree'></div>
-                        {/* <div className='trapezoid'></div> */}
-                        <Navbar />
-                        <div>
-                            {/* <img className='group-pic' src='../images/handshaking_img.jpg' alt='group-img'></img> */}
-                            {/* <Player     
-                                className='group-pic'   
-                                fluid={true}      
-                                width={50}    
-                                height={50}
-                                src='../images/ngprovid_one.mp4'>
-                                    <ControlBar disabled>
-                                        <BigPlayButton disabled/>
-                                        <CurrentTimeDisplay disabled />
-                                        <PlayToggle disabled/>
-                                        <DurationDisplay disabled />
-                                        <LoadProgressBar disabled />
-                                        <ProgressControl disabled />
-                                        <FullscreenToggle disabled />
-                                    </ControlBar>
-                            </Player> */}
-                        </div>
-                        <h1 className='headline' >Welcome To</h1>
-                        <h1 className='second-part-headline'>NG PRO</h1>
-                    </div>
+            <div >
+                <Navbar />
+                    {/* <div className='container'> */}
+                        {/* <div className='top-section'> */}
+                            {/* <div className='diamondone'></div>
+                            <div className='diamondtwo'></div>
+                            <div className='diamondthree'></div> */}
+                            <div className="top-section">
+                                 
+                                <h1 className='headline' >Bienvenido's a NG Pro</h1>
+                                <h1 className='second-part-headline'></h1>
+                                    <img className='img-thumbnail' src='/images/Thomas_Couple_Two.jpg'></img>
+                            </div>
+                    {/* </div> */}
+
                     <div className='about-section'>
-                        <div>
-                            <img className='second-pic-box' src='../images/front/Thomas_Side.jpg' alt='event-pic'></img>
-                            {/* <img className='second-pic-box_two' src='#' alt='event-pic'></img> */}
-                            <img className='second-pic-box_three' src='../images/front/Weekly_Meeting_Two.jpg' alt='event-pic'></img>
+                        <div className='w-auto p-3'>
+                            {/* <div className="card-body"> */}
+
+                            <h1 className='h2'>Somos Nueva Generacion de Profesionales</h1>
+                            <p className='text-wrap'>en NG PRO Creemos Que con Enfoque,Dedicacion,Trabajo Arduo y Disciplina. Podemos Ver Los SUEÑOS Hechos Realidad!</p>
+                            {/* </div> */}
                         </div>
-                        <div className='about-info'>
-                            <h1>Quiénes Somos Nosotros</h1>
-                            <p>We are a new generation of proffesionals. </p>
-                            {/* <button type='button' className='btn btn-primary'>Learn More!</button> */}
-                        </div>
+                            <img className='img-thumbnail' src='../images/front/Thomas_Side.jpg' alt='event-pic'></img>
                     </div>
+
                     <div className='event-section'>
                         <div>
-                        <img className='third-pic-box' src='../images/front/Weekly_Meeting_FW.jpg' alt='ng-pic'></img>
+                        <div className='w-auto p-3'>
+                            <h1 className='h2'>Events</h1>
+                            <p className='text-wrap'>EL SISTEMA DE CAPACITACION PARA LA CONSTRUCCION DEL NEGOCIO CONSISTE ENTRE OTRAS HERRAMIENTAS Y MATERIALES DE APOYO. ASISTIR A EVENTOS DE ALTO IMPACTO,CONVENCIONES SEMINARIOS REUNIONES ABIERTAS DE NEGOCIO.Y SEGUIR PASO A PASO LA GUIA DE LOS OCHO PASOS DEL PATRON DEL EXITO</p>
                         </div>
-                        <div className='event-info'>
-                            <h1>Events</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, ex ab dignissimos ipsum dolorum porro sunt! Ipsum ea, rem unde libero quaerat a tenetur provident quae magni? Illo, totam perspiciatis.</p>
+                        <img className='img-thumbnail' src='/images/login/Amway_Bck.jpg'></img>
                         </div>
                     </div>
-                </div>
+
                     <footer className='footer'>@2020 NGPRO</footer>
-            </div>
+            {/* </div> */}
+                </div>
         )
     }
 };

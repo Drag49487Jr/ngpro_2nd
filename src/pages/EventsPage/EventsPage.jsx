@@ -7,7 +7,7 @@ class EventsPage extends Component {
         return(
             <div>
                 <Navbar />
-            <div className='row'>
+            {/* <div className='row'>
                 <div className='col-sm-4'>
                         <h1>Weekly Meetings</h1>
                     <div className='card'>
@@ -57,34 +57,64 @@ class EventsPage extends Component {
                         <a href='https://www.google.com/' className='btn btn-primary'>Link</a>
                     </div>
                 </div>
-            </div>
-{/* 
-                    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-                    <ol className="carousel-indicators">
-                        <li data-target="../images/hotel_one.jpg" data-slide-to="0" class="active"></li>
-                        <li data-target="../images/hotel_two.jpg" data-slide-to="1"></li>
-                        <li data-target="#../images/hotel_three.jpg" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div className="carousel-item active">
-                            <img src="../images/hotel_one.jpg" class="d-block w-100" alt="..."/>
-                        </div>
-                        <div className="carousel-item">
-                        <img src="../images/hotel_two.jpg" class="d-block w-100" alt="..."/>
-                        </div>
-                        <div className="carousel-item">
-                        <img src="../images/hotel_three.jpg" class="d-block w-100" alt="..."/>
-                        </div>
+            </div> */}
+
+                    <h1>Meetings</h1>
+                <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <h1>Meetings</h1>
+                    <div class="carousel-item active">
+                        <h3>Temple, TX</h3>
+                        <p>Time: 8:00pm</p>
+                        <p>Date: Cada Jueves</p>
+                        <a className='btn btn-primary' href="https://www.google.com/maps/dir/32.7113132,-97.448954/1415+N+General+Bruce+Dr,+Temple,+TX+76504/@31.9137879,-97.7123472,9z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x86456b898565c923:0xc2d38106acc03d39!2m2!1d-97.3537236!2d31.1152296">Location</a>
+                    <img src='../images/meetings/Temple_TX.jpg' class="d-block w-100" alt="..."/>
+                    <div class="carousel-caption d-none d-md-block">
+                        {/* <div className="card"> */}
+                        {/* <button className='btn btn-primary'></button> */}
+                        {/* </div> */}
                     </div>
-                    <a className="carousel-control-prev" href="#" role="button" data-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Previous</span>
-                    </a>
-                    <a className="carousel-control-next" href="#" role="button" data-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Next</span>
-                    </a>
-                    </div> */}
+                    </div>
+                    <div class="carousel-item">
+                        <h3>Duncanville, TX</h3>
+                        <p>Time: 8:00pm</p>
+                        <p>Date: Cada Lunes</p>
+                    <img src='../images/meetings/Duncanville_TX.jpg' class="d-block w-100" alt="..."/>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>Durham, NC</h3>
+                        <p>Time: 8:00pm</p>
+                        <p>Date: Cada Meircoles</p>
+                    <img src='../images/meetings/Durham_NC.jpg' class="d-block w-100" alt="..."/>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>Shelby, TN</h3>
+                        <p>Time: 8:00pm</p>
+                        <p>Date: Cada Meircoles</p>
+                    <img src='../images/meetings/Shelby_TN.jpg' class="d-block w-100" alt="..."/>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
             </div>
         )
     }
