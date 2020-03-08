@@ -30,28 +30,24 @@ class SecondLoginPage extends Component {
 
     render() {
         return (
-            <div>
-                <div>
-
-                <img className='background' src='images/login/OPNGPRO.jpg' alt='login'></img>
-                    <div className="diamond">
-                </div>
-                    <div className="container">
-                        <img className='logo' src='images/ngpro-logo.jpeg' alt='logo'></img>
-                        <div className="login-box">
-                            <div className="password">
-                                <form onSubmit={this.handleSubmit}>
-                                    <input className='input-box' type="password" className="input-box" name='user_password' onChange={this.handleChange}></input>
-                                        <button className="login-button btn-primary">
-                                            Login 
-                                        </button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-
-                    </div>
-            </div>
+            // <div className='text-center'>
+                    // {/* <div className="diamond"></div> */}
+                                <div className="container">
+                                    <form id='login-box' onSubmit={this.handleSubmit}>
+                                                    <img className='img-thumbnail' src='images/ngpro-logo.jpeg' alt='logo'></img>
+                                        <div className="col">
+                                                    <h1 className='h3'>Login in Please</h1>
+                                                    <h1 className='alert'>{this.state.message}</h1>
+                                        </div>
+                                        <div className="col">
+                                                    <input type="password" className='form-control' name='user_password' onChange={this.handleChange}></input>
+                                                    <button className="login-button btn-primary">
+                                                        Login 
+                                                    </button>
+                                        </div>       
+                                    </form>
+                                </div>
+            // </div>
         )
     }
 };
