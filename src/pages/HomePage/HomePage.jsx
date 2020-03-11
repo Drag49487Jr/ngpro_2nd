@@ -17,7 +17,7 @@ class HomePage extends Component {
                                  
                                 <h1 className='headline' >Bienvenido's a NG Pro</h1>
                                 <h1 className='second-part-headline'></h1>
-                                    <img className='img-thumbnail' src='/images/Thomas_Couple_Two.jpg'></img>
+                                    <img className='img-thumbnail' id='tomas_thumbnail'src='/images/Thomas_Couple_Two.jpg'></img>
                             </div>
                     {/* </div> */}
 
@@ -26,17 +26,17 @@ class HomePage extends Component {
                             {/* <div className="card-body"> */}
 
                             <h1 className='h2'>Somos Nueva Generacion de Profesionales</h1>
-                            <p className='text-wrap'>en NG PRO Creemos Que con Enfoque,Dedicacion,Trabajo Arduo y Disciplina. Podemos Ver Los SUEÑOS Hechos Realidad!</p>
+                            <p className='text-wrap'>EN NG PRO SOMOS UNA ORGANIZACION DONDE LA EDUCACION Y CAPACITACION CONTINUA ES ESENCIAL! Y CON ENFOQUE, DEDICACION,TRABAJO ARDUO, Y DISCIPLINA. PUEDES VER TUS  SUEÑOS HECHOS REALIDAD!</p>
                             {/* </div> */}
                         </div>
-                            <img className='img-thumbnail' src='../images/front/Thomas_Side.jpg' alt='event-pic'></img>
+                            <img className='img-thumbnail' src='../images/ngpro-logo.jpeg' alt='event-pic'></img>
                     </div>
 
                     <div className='event-section'>
                         <div>
                         <div className='w-auto p-3'>
-                            <h1 className='h2'>Events</h1>
-                            <p className='text-wrap'>EL SISTEMA DE CAPACITACION PARA LA CONSTRUCCION DEL NEGOCIO CONSISTE ENTRE OTRAS HERRAMIENTAS Y MATERIALES DE APOYO. ASISTIR A EVENTOS DE ALTO IMPACTO,CONVENCIONES SEMINARIOS REUNIONES ABIERTAS DE NEGOCIO.Y SEGUIR PASO A PASO LA GUIA DE LOS OCHO PASOS DEL PATRON DEL EXITO</p>
+                            <h1 className='h2'>El Sistema</h1>
+                            <p className='text-wrap'>EL SISTEMA DE  EDUCACION Y CAPACITACION CONSISTE EN ESCUCHAR AUDIOS LEER LIBROS Y  ASISTIR A EVENTOS DE ALTO IMPACTO! CONVENCIONES,SEMINARIOS,REUNIONES ABIERTAS DE NEGOCIO.Y SEGUIR LA GUIA DE LOS OCHO PASOS DEL PATRON DEL EXITO</p>
                         </div>
                         <img className='img-thumbnail' src='/images/login/Amway_Bck.jpg'></img>
                         </div>
