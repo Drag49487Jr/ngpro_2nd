@@ -7,10 +7,11 @@ class Navbar extends Component {
             
  
         <div class="pos-f-t">
-  <div class="collapse" id="navbarToggleExternalContent">
+  <div class="collapse mt-5" id="navbarToggleExternalContent">
     <div class="bg-dark p-4">
-      <h5 class="text-white h4">Collapsed content</h5>
-      <div className="col">
+      <div className="row mx-auto">
+
+      <div className="col ">
         <i class="fas fa-home"></i>
           <Link className='link' to='/home'>Home</Link>
       </div>
@@ -26,9 +27,13 @@ class Navbar extends Component {
         <i className="fas fa-file-alt"></i>
         <Link className='link' to='/downloadablefiles'>Files</Link>
       </div> */}
+      <div className="col">
+
       <i className="fas fa-sign-out-alt"></i>
       <Link className='link' to='/'>LogOut</Link>
       {/* <span class="text-muted">Toggleable via the navbar brand.</span> */}
+      </div>
+      </div>
     </div>
   </div>
   <nav class="navbar navbar-dark bg-dark">
